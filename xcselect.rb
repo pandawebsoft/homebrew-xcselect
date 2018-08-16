@@ -1,6 +1,6 @@
 require "formula"
 
-HOMEBREW_XCSELECT_VERSION='1.1.0'
+HOMEBREW_XCSELECT_VERSION='1.1.0.14'
 
 class Xcselect < Formula
   desc "A command line tool based xcode-select but more flexible and easy to use."
