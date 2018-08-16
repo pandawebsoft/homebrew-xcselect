@@ -14,6 +14,6 @@ class Xcselect < Formula
   head 'https://github.com/pandawebsoft/xcselect.git', :branch => 'master'
 
   def install
-     system "make"
+     bin.install "bin/xcselect"
   end
 end
